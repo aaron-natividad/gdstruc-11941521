@@ -22,7 +22,7 @@ public class Main {
 
         // contains and index of
         System.out.println(playerList.contains(new Player(2, 205, "LethalBacon")));
-        System.out.println(playerList.indexOf(new Player(3, 205, "LethalBacon")));
+        System.out.println(playerList.indexOf(new Player(2, 205, "LethalBacon")));
 
         // print all members
         playerList.forEach(player->System.out.println(player));
