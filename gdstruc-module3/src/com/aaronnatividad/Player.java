@@ -3,9 +3,9 @@ package com.aaronnatividad;
 import java.util.Objects;
 
 public class Player {
-    int playerId;
-    int level;
-    String userName;
+    private int playerId;
+    private int level;
+    private String userName;
 
     public Player(int playerId, int level, String userName) {
         this.playerId = playerId;
